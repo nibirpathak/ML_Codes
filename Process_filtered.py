@@ -251,28 +251,7 @@ for i in range(7,8):
 import numpy as np
 import matplotlib.pyplot as plt
 
-fig, ax = plt.subplots(1, 3, figsize=(10, 4))
-x=np.arange(count)*36
-ax[0].plot(x[0:count], I_arr[0:count,0])
-ax[0].set_title("default axes ranges")
 
-ax[1].plot(x[0:count], I_arr[0:count,1])
-ax[1].axis('tight')
-ax[1].set_title("tight axes")
-
-ax[2].plot(x[0:count], I_arr[0:count,2])
-ax[2].set_ylim([28000, 29000])
-ax[2].set_title("custom axes range");
-
-
-# In[298]:
-
-
-for e in I_arr:
-    if e<1700
-
-
-# In[ ]:
 
 
 
