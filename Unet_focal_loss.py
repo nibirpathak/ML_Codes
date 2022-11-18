@@ -119,7 +119,7 @@ n_classes= 3 #Number of classes for segmentation
 
 # In[4]:
 
-
+# Sample data set
 train_images = tiff.imread('D:/Machine Learning/Unet_data/Cell/BBBC/train_img.tif')
 train_masks = tiff.imread('D:/Machine Learning/Unet_data/Cell/BBBC/Mask_BBBC.tif')
 
